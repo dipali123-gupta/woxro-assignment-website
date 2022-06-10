@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Banner from './components/Banner';
+import Properties from './components/Properties';
+import Profession from './components/Profession';
+import CommercialShop from './components/CommercialShop';
+import CommercialOffice from './components/CommercialOffice';
+import CommercialLand from './components/CommercialLand';
+import CommercialBuilding from './components/CommercialBuilding';
+import IndustialBuilding from './components/IndustrialBuilding';
+import IndustialLand from './components/IndustrialLand';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+     <Navbar></Navbar>
+     <Properties></Properties>
+     <Banner></Banner>
+     <Profession></Profession>
+     <CommercialShop></CommercialShop>
+     <CommercialOffice></CommercialOffice>
+     <CommercialLand></CommercialLand>
+     <CommercialBuilding></CommercialBuilding>
+     <IndustialBuilding></IndustialBuilding>
+     <IndustialLand></IndustialLand>
     </div>
   );
 }

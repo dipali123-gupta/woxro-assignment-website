@@ -10,6 +10,14 @@ import CommercialBuilding from './components/CommercialBuilding';
 import IndustialBuilding from './components/IndustrialBuilding';
 import IndustialLand from './components/IndustrialLand';
 
+import CoWorkingSpace from './components/CoWorkingSpace';
+import PrivateOffice from './components/PrivateOffice';
+import MeetingRoom from './components/MeetingRoom';
+import Footer from './components/Footer';
+import Bannerform from './components/Bannerform';
+
+
+
 
 function App() {
   return (
@@ -17,6 +25,7 @@ function App() {
      <Navbar></Navbar>
      <Properties></Properties>
      <Banner></Banner>
+     <Bannerform></Bannerform>
      <Profession></Profession>
      <CommercialShop></CommercialShop>
      <CommercialOffice></CommercialOffice>
@@ -24,6 +33,11 @@ function App() {
      <CommercialBuilding></CommercialBuilding>
      <IndustialBuilding></IndustialBuilding>
      <IndustialLand></IndustialLand>
+     <CoWorkingSpace></CoWorkingSpace>
+     <PrivateOffice></PrivateOffice>
+     <MeetingRoom></MeetingRoom>
+     <Footer></Footer>
+     
     </div>
   );
 }

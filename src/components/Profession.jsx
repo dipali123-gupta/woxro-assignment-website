@@ -28,7 +28,7 @@ function Profession() {
               }}
             >
               <div className="center-image">
-                <img src="https://www.xentice.com/static/media/engineer.877f1aa6.png" />
+                <img src="https://www.xentice.com/static/media/engineer.877f1aa6.png" alt="" />
               </div>
               <div style={{ paddingLeft: "25px", paddingTop: "10px" }}>
                 <Typography variant="body2" color="text.secondary">
@@ -47,7 +47,7 @@ function Profession() {
               }}
             >
               <div className="center-image">
-                <img src="https://www.ezloandocs.com/wp-content/uploads/2021/03/corporation.svg" />
+                <img src="https://www.ezloandocs.com/wp-content/uploads/2021/03/corporation.svg" alt=""/>
               </div>
               <div style={{ paddingLeft: "25px", paddingTop: "10px" }}>
                 <Typography variant="body2" color="text.secondary">

@@ -27,7 +27,7 @@ function IndustialLand() {
         >
           <div style={{ display: "flex" , paddingLeft:"40px" , paddingTop:"45px"}}>
             <img
-              src="https://www.xentice.com/static/media/building_lease.54959134.png"
+              src="https://www.xentice.com/static/media/land_lease.7ccc6444.png"
               width="30"
               height="30"
               
